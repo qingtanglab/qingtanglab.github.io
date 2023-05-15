@@ -12,7 +12,7 @@ and easy maintanance for research labs.
 
 - Clone this repository to local directory:
 
-`git clone https://github.com/pyjiang/pyjiang.github.io`
+`git clone https://github.com/tangqing1126/tanglab.github.io
 
 - Then install Jekyll (I install Jekyll 3.1.3 locally and it runs fine. In the Gemfile, it uses 4.2.0 when building from github pages.)
 
