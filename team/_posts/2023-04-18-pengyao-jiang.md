@@ -14,13 +14,11 @@ alum: false
 Qing is an incoming Assistant Professor at the [Department of Biology] at the University of Texas at Arlington. She is going to start her position in January 2024. 
 
 Before starting her own lab, Qing worked as a postdoctoral scholar in the Department of Microbiology at the University of Washington, working with 
-[Dr. Kelley Harris] and [Dr. Maitreya Dunham]. 
+[Dr. Joshua J. Woodward]. 
 
-She did her  Ph. D. at the Department of Ecology and Evolution of the University of Chicago (2010-2017), working with [Dr. John Reinitz] and [Dr. Martin Kreitman]. 
+She did her  Ph. D. at the Department of Life Science and Technology of the huazhong agricultural university (2012-2017), working with [Dr. Jin He]. 
 
 
 [Department of Biology]: https://www.uta.edu/academics/schools-colleges/science/departments/biology
-[Dr. Kelley Harris]: https://www.gs.washington.edu/faculty/harris.htm
-[Dr. Maitreya Dunham]: https://www.gs.washington.edu/faculty/dunham.htm
-[Dr. John Reinitz]: https://camb.uchicago.edu/program/faculty/john-reinitz
-[Dr. Martin Kreitman]: https://openwetware.org/wiki/Kreitman:Contact
+[Dr. Joshua J. Woodward]: https://www.woodwardlab.org/
+[Dr. Jin He]: https://faculty.hzau.edu.cn/hejin/en/index/64777/list/index.htm
