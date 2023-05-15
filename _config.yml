@@ -1,6 +1,6 @@
 name: Tang Lab Research
-description: Science website on molecular mechanisms of Evolution 
-url: qingtang.github.io
+description: Science website on Microbiology and Innate Immunology
+url: qingtanglab.github.io
 
 markdown: kramdown
 permalink: /:categories/:title/
