@@ -1,0 +1,50 @@
+name: Jiang Lab Research
+description: Science website on molecular mechanisms of Evolution 
+url: pyjiang.github.io
+
+markdown: kramdown
+permalink: /:categories/:title/
+future: true
+sass:
+  sass_dir: css
+timezone: America/Los_Angeles
+
+plugins: 
+ - jekyll-twitter-plugin
+
+include:
+  - research
+
+exclude:
+  - "*.branches"
+  - "*.class"
+  - "*.cpp"
+  - "*.csv"
+  - "*.fasta"
+  - "*.gz"
+  - "*.h"
+  - "*.hh"
+  - "*.ipynb"
+  - "*.jar"
+  - "*.java"
+  - "*.kml"
+  - "*.log"
+  - "*.mcc"
+  - "*.nb"
+  - "*.newick"
+  - "*.nex"
+  - "*.py"
+  - "*.R"
+  - "*.rb"
+  - "*.Rmd"
+  - "*.tiff"
+  - "*.tips"
+  - "*.trees"
+  - "*.tsv"
+  - "*.txt"
+  - "*.xml"
+  - "*.zip"
+
+
+
+      
