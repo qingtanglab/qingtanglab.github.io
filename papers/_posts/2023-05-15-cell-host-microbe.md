@@ -5,10 +5,10 @@ title: Thymidine starvation promotes c-di-AMP-dependent inflammation during path
 image: /images/papers/xu-phyRevE-2014.png
 authors: Qing Tang, Mimi R. Precit, Maureen K. Thomason, Sophie F. Blanc, Fariha Ahmed-Qadri, Adelle P. McFarland, Daniel J. Wolter, Lucas R. Hoffman, Joshua J. Woodward
 year: 2022
-ref: 
+ref: Tang et al., Cell Host & Microbe, 2022
 journal: Cell Host & Microbe
 pdf: /pdfs/paper/xu-phyRevE-2014.pdf
-doi: https://doi.org/10.1016/j.chom.2022.03.028
+doi: 10.1016/j.chom.2022.03.028
 ---
 
 # Abstract
