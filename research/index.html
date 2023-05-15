@@ -1,0 +1,51 @@
+---
+layout: default
+title: Research
+categories:
+ - research
+---
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			{{ page.title }}
+		</div>
+	</div>
+</div>
+
+        
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+
+
+        
+
+{% for project in site.categories.research  %}
+<div class="row">
+
+    <div class="col-lg-5">
+        <div class="head">
+			{{ project.title }}
+		</div>
+
+        <div class="bigspacer"></div>
+
+        <div class="image-container">
+            <img src="{{ project.image }}" alt="Image">
+        </div>
+    </div>
+
+	<div class="col-lg-7">
+		<div class="post">
+            {{ project.content }}
+		</div>
+	</div>
+    
+    <div class="bigspacer"></div>
+    <div class="bigspacer"></div>
+    <div class="bigspacer"></div>
+{% endfor %}
+
+
