@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Thymidine starvation promotes c-di-AMP-dependent inflammation during pathogenic bacterial infection
-image: /images/papers/jiang-currop-2022.png
+image: /images/Thymidine_cell_host-Microbe.jpg
 authors: Tang et al.
 year: 2022
 ref: Tang et al., Cell Host & Microbe, 2022
