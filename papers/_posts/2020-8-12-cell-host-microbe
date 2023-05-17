@@ -1,0 +1,14 @@
+---
+layout: paper
+title: Targeted Depletion of Bacteria from Mixed Populations by Programmable Adhesion with Antagonistic Competitor Cells
+image: 
+authors: Ting et al.
+year: 2020
+ref: Ting et al., Cell Host & Microbe, 2020
+journal: Cell Host & Microbe
+pdf: 
+doi: 10.1016/j.chom.2020.05.006
+---
+
+# Abstract
+Selective and targeted removal of individual species or strains of bacteria from complex communities can be desirable over traditional, broadly acting antibacterials in several contexts. However, generalizable strategies that accomplish this with high specificity have been slow to emerge. Here we develop programmed inhibitor cells (PICs) that direct the potent antibacterial activity of the type VI secretion system (T6SS) against specified target cells. The PICs express surface-displayed nanobodies that mediate antigen-specific cell-cell adhesion to effectively overcome the barrier to T6SS activity in fluid conditions. We demonstrate the capacity of PICs to efficiently deplete low-abundance target bacteria without significant collateral damage to complex microbial communities. The only known requirements for PIC targeting are a Gram-negative cell envelope and a unique cell surface antigen; therefore, this approach should be generalizable to a wide array of bacteria and find application in medical, research, and environmental settings.
