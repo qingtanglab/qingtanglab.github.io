@@ -3,7 +3,7 @@ layout: post
 title: "Cell Host & Microbe published a comment article on Qing Tang’s recent publication"
 author: "Qing Tang"
 author_handle: qingtanglab
-image: /images/Cell-host-microbe.jpg
+image: /images/2022-Acosta.jpg
 category: blog
 tags: [news]
 ---
