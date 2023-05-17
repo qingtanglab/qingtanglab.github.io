@@ -7,7 +7,7 @@ image:
 category: blog
 tags: [news]
 ---
-QQing Tang's publication, titled "[Thymidine starvation promotes c-di-AMP-dependent inflammation during pathogenic bacterial infection]," has been selected as a Highlighted Article by [Science Signaling]. 
+Qing Tang's publication, titled "[Thymidine starvation promotes c-di-AMP-dependent inflammation during pathogenic bacterial infection]," has been selected as a Highlighted Article by [Science Signaling]. 
 
 
 [Thymidine starvation promotes c-di-AMP-dependent inflammation during pathogenic bacterial infection]: https://www.sciencedirect.com/science/article/pii/S1931312822001585?via%3Dihub
