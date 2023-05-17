@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qing Tang’s publication is selected as Highlighted Article by Science Signaling"
+title: "Qing Tang’s publication has been selected as a Highlighted Article by Science Signaling"
 author: "Qing Tang"
 author_handle: qingtanglab
 image: 
