@@ -90,7 +90,15 @@
 						<a class="mx-1" href="/papers/">Publications</a>
 						</li>
 
-								
+						
+						{% if page.categories.first == 'events' %}
+						<li class="nav-link active">
+						{% else %}
+						<li class="nav-link">
+						{% endif %}
+						<a class="mx-1" href="/events/">Events</a>
+						</li>	
+						
 					    {% if page.categories.first == 'misc' %}
 						<li class="nav-link active">
 						{% else %}
