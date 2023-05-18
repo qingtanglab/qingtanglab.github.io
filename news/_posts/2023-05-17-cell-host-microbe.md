@@ -10,7 +10,7 @@ tags: [news]
 
 
 
-Cell Host & Microbe published a comment article written by Iván C. Acosta and [Francis Alonzo III] titled "[Antibiotic treatment ignites a fire that lasts]". 
+Cell Host & Microbe published a comment article written by Iván C. Acosta and [Francis Alonzo III] titled "[Antibiotic treatment ignites a fire that lasts]" and highlighted Qing Tang's recent research. 
 
 Abstract:
 Tissue damage and persistent inflammation are distinctive features of antibiotic-resistant chronic infections. In this issue of Cell Host & Microbe, Tang et al. demonstrate that anti-folate antibiotics trigger the synthesis of a bacterial second messenger, which induces an exuberant immune response and establishes a paradigm for chronic infection.
