@@ -3,7 +3,7 @@ layout: post
 title: "Qing Tang received STARs awards"
 author: "Qing Tang"
 author_handle: qingtanglab
-image: /images/news-icon.png
+image:
 category: blog
 tags: [news]
 ---
