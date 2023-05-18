@@ -1,10 +1,9 @@
 ---
 layout: default
-title: News
-description: Recent updates
+title: bedford lab / blog
 categories:
  - blog
-category: blog
+category: news
 ---
 
 <div class="row">
@@ -12,12 +11,12 @@ category: blog
 		<div class="centered-pills">
 			<ul class="nav nav-pills note">
 				<li role="presentation" class="nav-item">
-					<a class="nav-link active" href="/news/">
+					<a class="nav-link active" href="/blog/">
 						<i class="fa fa-refresh fa-fw"></i> Timeline
 					</a>
 				</li>
 				<li role="presentation" class="nav-item">
-					<a class="nav-link off" href="/news/archive/">
+					<a class="nav-link off" href="/blog/archive/">
 						<i class="fa fa-list-ul fa-fw"></i> Index
 					</a>
 				</li>
@@ -31,25 +30,9 @@ category: blog
 
 {% for post in site.categories.blog limit: 8 %}
 
-	<div class="blog-post">	
+	<div class="blog-post">
 		<div class="row">
-			
-			
-			
-				<div class="col-lg-1"></div>
-			<div class="col-lg-10">
-				{% if post.image %}
-				{% if post.link %}
-				<a href="{{ post.link }}">
-					<img class="offset" src="{{ post.image }}">		
-			
-
-			     
-			     
-			     
-			     
-			     
-		</div>
+			<div class="col-lg-1"></div>
 			<div class="col-lg-10">
 				<div class="media">
 					<div class="media-body">
@@ -104,6 +87,15 @@ category: blog
 		<div class="row">
 			<div class="col-lg-1"></div>
 			<div class="col-lg-10">
+				{% if post.image %}
+				{% if post.link %}
+				<a href="{{ post.link }}">
+					<img class="offset" src="{{ post.image }}">
+				</a>
+				{% else %}
+				<img class="offset" src="{{ post.image }}">
+				{% endif %}
+				{% endif %}
 				<div class="post">
 					{{ post.content }}
 				</div>
@@ -127,7 +119,7 @@ category: blog
 		<div id="scroll" class="centered-pills">
 			<ul class="nav nav-pills note">
 				<li role="presentation">
-					<a class="off" href="/news/">
+					<a class="off" href="/blog/">
 						<i class="fa fa-chevron-up fa-fw"></i> Back to top
 					</a>
 				</li>
