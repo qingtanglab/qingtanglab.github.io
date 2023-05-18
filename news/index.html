@@ -31,22 +31,11 @@ category: blog
 
 {% for post in site.categories.blog limit: 8 %}
 
-	<div class="blog-post">
-		
-		
+	<div class="blog-post">	
 		<div class="row">
-	<div class="col-lg-6">
-		<img class="newslogo" src="image1.jpg">
-	</div>
-	<div class="col-lg-6">
-		<img class="newslogo" src="image2.jpg">
-	</div>
-</div>
-		
-			
-			
-			
-			
+	              <div class="col-lg-1">
+				<img class="newslogo" src="{{ post.image }}">
+		</div>
 			<div class="col-lg-10">
 				<div class="media">
 					<div class="media-body">
