@@ -6,7 +6,7 @@ authors: Qing Tang, Mimi R Precit, Maureen K Thomason, Sophie F Blanc, Fariha Ah
 year: 2022
 ref: Tang et al., Cell Host & Microbe, 2022
 journal: Cell Host & Microbe
-pdf: pdfs/paper/4.13_Thymidine starvation promotes c-di-AMP dependent inflammation during infection copy.pdf
+pdf: /pdfs/paper/4.13_Thymidine starvation promotes c-di-AMP dependent inflammation during infection copy.pdf
 doi: 10.1016/j.chom.2022.03.028
 ---
 
