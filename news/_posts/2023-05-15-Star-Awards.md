@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qing Tang received STARs awards"
+title: "Qing Tang received STARs award"
 author: "Qing Tang"
 author_handle: qingtanglab
 image:
