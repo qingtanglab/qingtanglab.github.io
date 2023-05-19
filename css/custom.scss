@@ -445,119 +445,150 @@ blockquote {
   }
 }
 
-.lunbo{
-	/* 视口,图片显示出来的框 */
-	/* 超出部分隐藏 */
+
+.slide {
+	/* 写相对定位是因为一会轮播图上的小圆点需要做绝对定位 */
+	position: relative;
+	/* 让轮播图在页面中居中 */
+	margin: auto;
+	/* 宽度和高度就是一张图的宽和高 */
+	width: 300px;
+	height: 200px;
+	/* 只显示一张图，其他超出盒子的图片先隐藏掉 */
 	overflow: hidden;
-	position: fixed;
 }
-.lunbo .images img{
-	/* 手机端 */
-	/* width: 100vw; */
-	/* pc */
-	width: 400px;
-	/* 去除图片周围空白 */
-	display: block;
+
+ul { 
+	list-style: none; 
+	/* 宽度尽量写大，确保能放下所有的图片 */
+	width: 9999px;
+	/* 控制ul开始做位置移动（利用css动画特性来实现===核心代码） */
+	animation: swiperRun 10s infinite 2s running;
 }
-.fix{
-	/* 手机端 */
-	/* width: 100vw; */
-	/* pc */
-	width: 400px;
-	/* 占位的图片 */
-	visibility: hidden;
+
+li {
+	width: 300px;
+	height: 200px;
+	float: left;
 }
-.lunbo .images{
-	display: flex;
-	border: 1px solid blue;
-	/* 加了相对定位和绝对定位以后,才会移动 */
-	position: absolute;
-	 /* 定义动画 */
-	 animation: move 6s infinite;
-	/* 第一个数值为设置的动画名称,第二个数值为轮播一圈时间,第三个数值为无限循环 */
-}
-/* 设置动画 */
-@keyframes move {
-	0%{
-		left: 0;
-	}
-	33.33%{
-		left: -400px;
-	}
-	66.66%{
-		left: -800px;
-	}
-	100%{
-		left: -1200px;
-	}
-}
-/* 为圆点设置样式 */
-.yuandian{
-	position: absolute;
-	z-index: 1;
-	bottom: 10px;
-	display: flex;
-	justify-content: center;
+img {
 	width: 100%;
+	height: 100%;
 }
-.dian~.dian{
-	margin-left: 10px;
+.circle {
+	width: 100px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+
 }
-.yuandian .dian{
+.circle div {
+	box-sizing: border-box;
 	width: 10px;
 	height: 10px;
-	border-radius: 5px;
-	background-color: aqua;
+	border-radius: 50%;
+	border: 1px solid white;
+	float: left;
+	margin: 0 5px;
+
 }
-<!--设置圆点动画 -->
-.dian1{
-	animation: dian1 6s infinite;
+/* 鼠标滑过暂停播放 */
+.slide:hover ul,.slide:hover .active{
+	animation-play-state: paused;
+	cursor: pointer;
 }
-.dian2{
-	animation: dian2 6s infinite;
+.circle .active {
+	opacity: 1;
+	transform: translateX(20px);
+	background-color: #FFF;
+	animation: circleRun 10s infinite 2s running;
 }
-.dian3{
-	animation: dian3 6s infinite;
+@keyframes swiperRun {
+	/* 第一张 */
+	0% {
+		transform: translateX(0px);
+	}
+	/* 第二张 */
+	5% {
+		transform: translateX(-300px);
+	}
+
+	25% {
+		transform: translateX(-300px);
+	}
+	/* 第三张 */
+	30% {
+		transform: translateX(-600px);
+	}
+
+	50% {
+		transform: translateX(-600px);
+	}
+	/* 第四张 */
+	55% {
+		transform: translateX(-900px);
+	}
+
+	75% {
+		transform: translateX(-900px);
+	}
+	/* 第五张 */
+	80% {
+		transform: translateX(-1200px);
+	}
+
+	100% {
+		transform: translateX(-1200px);
+	}
 }
-@keyframes dian1 {
-	0%{
-		background-color: brown;
+
+@keyframes circleRun {
+	/* 第一个点 */
+	0% {
+		transform: translateX(20px);
+		opacity: 1;
 	}
-	33.33%{
-		background-color: aqua;
+	/* 第二个点 */
+	5% {
+		transform: translateX(40px);
+		opacity: 1;
 	}
-	66.66%{
-		background-color: aqua;
+	25% {
+		transform: translateX(40px);
+		opacity: 1;
 	}
-	100%{
-		background-color: brown;
+	/* 第三个点 */
+	30% {
+		transform: translateX(60px);
+		opacity: 1;
 	}
-}
-@keyframes dian2 {
-	0%{
-		background-color: aqua;
+	50% {
+		transform: translateX(60px);
+		opacity: 1;
 	}
-	33.33%{
-		background-color: brown;
+	/* 第四个点 */
+	55% {
+		transform: translateX(80px);
+		opacity: 1;
 	}
-	66.66%{
-		background-color: aqua;
+
+	75% {
+		transform: translateX(80px);
+		opacity: 1;
 	}
-	100%{
-		background-color: aqua;
+	77% {
+		transform: translateX(19px);
+		opacity: 0;
 	}
-}
-@keyframes dian3 {
-	0%{
-		background-color: aqua;
+	/* 第五个点  移出去 */
+	80% {
+		transform: translateX(20px);
+		opacity: 1;
 	}
-	33.33%{
-		background-color: aqua;
-	}
-	66.66%{
-		background-color: brown;
-	}
-	100%{
-		background-color: aqua;
+	100% {
+		transform: translateX(20px);
+		opacity: 1;
 	}
 }
