@@ -445,119 +445,119 @@ blockquote {
   }
 }
 
-  .lunbo{
-            /* 视口,图片显示出来的框 */
-            /* 超出部分隐藏 */
-            overflow: hidden;
-            position: fixed;
-        }
-        .lunbo .images img{
-            /* 手机端 */
-            /* width: 100vw; */
-            /* pc */
-            width: 400px;
-            /* 去除图片周围空白 */
-            display: block;
-        }
-        .fix{
-            /* 手机端 */
-            /* width: 100vw; */
-            /* pc */
-            width: 400px;
-            /* 占位的图片 */
-            visibility: hidden;
-        }
-        .lunbo .images{
-            display: flex;
-            border: 1px solid blue;
-            /* 加了相对定位和绝对定位以后,才会移动 */
-            position: absolute;
-             /* 定义动画 */
-             animation: move 6s infinite;
-            /* 第一个数值为设置的动画名称,第二个数值为轮播一圈时间,第三个数值为无限循环 */
-        }
-        /* 设置动画 */
-        @keyframes move {
-            0%{
-                left: 0;
-            }
-            33.33%{
-                left: -400px;
-            }
-            66.66%{
-                left: -800px;
-            }
-            100%{
-                left: -1200px;
-            }
-        }
-        /* 为圆点设置样式 */
-        .yuandian{
-            position: absolute;
-            z-index: 1;
-            bottom: 10px;
-            display: flex;
-            justify-content: center;
-            width: 100%;
-        }
-        .dian~.dian{
-            margin-left: 10px;
-        }
-        .yuandian .dian{
-            width: 10px;
-            height: 10px;
-            border-radius: 5px;
-            background-color: aqua;
-        }
-  <!--设置圆点动画 -->
-        .dian1{
-            animation: dian1 6s infinite;
-        }
-        .dian2{
-            animation: dian2 6s infinite;
-        }
-        .dian3{
-            animation: dian3 6s infinite;
-        }
-        @keyframes dian1 {
-            0%{
-                background-color: brown;
-            }
-            33.33%{
-                background-color: aqua;
-            }
-            66.66%{
-                background-color: aqua;
-            }
-            100%{
-                background-color: brown;
-            }
-        }
-        @keyframes dian2 {
-            0%{
-                background-color: aqua;
-            }
-            33.33%{
-                background-color: brown;
-            }
-            66.66%{
-                background-color: aqua;
-            }
-            100%{
-                background-color: aqua;
-            }
-        }
-        @keyframes dian3 {
-            0%{
-                background-color: aqua;
-            }
-            33.33%{
-                background-color: aqua;
-            }
-            66.66%{
-                background-color: brown;
-            }
-            100%{
-                background-color: aqua;
-            }
-        }
+//   .lunbo{
+//             /* 视口,图片显示出来的框 */
+//             /* 超出部分隐藏 */
+//             overflow: hidden;
+//             position: fixed;
+//         }
+//         .lunbo .images img{
+//             /* 手机端 */
+//             /* width: 100vw; */
+//             /* pc */
+//             width: 400px;
+//             /* 去除图片周围空白 */
+//             display: block;
+//         }
+//         .fix{
+//             /* 手机端 */
+//             /* width: 100vw; */
+//             /* pc */
+//             width: 400px;
+//             /* 占位的图片 */
+//             visibility: hidden;
+//         }
+//         .lunbo .images{
+//             display: flex;
+//             border: 1px solid blue;
+//             /* 加了相对定位和绝对定位以后,才会移动 */
+//             position: absolute;
+//              /* 定义动画 */
+//              animation: move 6s infinite;
+//             /* 第一个数值为设置的动画名称,第二个数值为轮播一圈时间,第三个数值为无限循环 */
+//         }
+//         /* 设置动画 */
+//         @keyframes move {
+//             0%{
+//                 left: 0;
+//             }
+//             33.33%{
+//                 left: -400px;
+//             }
+//             66.66%{
+//                 left: -800px;
+//             }
+//             100%{
+//                 left: -1200px;
+//             }
+//         }
+//         /* 为圆点设置样式 */
+//         .yuandian{
+//             position: absolute;
+//             z-index: 1;
+//             bottom: 10px;
+//             display: flex;
+//             justify-content: center;
+//             width: 100%;
+//         }
+//         .dian~.dian{
+//             margin-left: 10px;
+//         }
+//         .yuandian .dian{
+//             width: 10px;
+//             height: 10px;
+//             border-radius: 5px;
+//             background-color: aqua;
+//         }
+//   <!--设置圆点动画 -->
+//         .dian1{
+//             animation: dian1 6s infinite;
+//         }
+//         .dian2{
+//             animation: dian2 6s infinite;
+//         }
+//         .dian3{
+//             animation: dian3 6s infinite;
+//         }
+//         @keyframes dian1 {
+//             0%{
+//                 background-color: brown;
+//             }
+//             33.33%{
+//                 background-color: aqua;
+//             }
+//             66.66%{
+//                 background-color: aqua;
+//             }
+//             100%{
+//                 background-color: brown;
+//             }
+//         }
+//         @keyframes dian2 {
+//             0%{
+//                 background-color: aqua;
+//             }
+//             33.33%{
+//                 background-color: brown;
+//             }
+//             66.66%{
+//                 background-color: aqua;
+//             }
+//             100%{
+//                 background-color: aqua;
+//             }
+//         }
+//         @keyframes dian3 {
+//             0%{
+//                 background-color: aqua;
+//             }
+//             33.33%{
+//                 background-color: aqua;
+//             }
+//             66.66%{
+//                 background-color: brown;
+//             }
+//             100%{
+//                 background-color: aqua;
+//             }
+//         }
