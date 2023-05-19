@@ -249,6 +249,30 @@ b, strong {
   font-size: 16px;
 }
 
+
+// QT added animationContainer
+#animationContainer 
+{
+  position: relative;
+}
+
+.biglogo {
+  position: absolute;
+  opacity: 0;
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
 /* other */
 
 body {
@@ -445,23 +469,3 @@ blockquote {
   }
 }
 
-
-#animationContainer 
-{
-  position: relative;
-}
-
-.biglogo {
-  position: absolute;
-  opacity: 0;
-  animation: fade-in 1s ease-in-out forwards;
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
