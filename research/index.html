@@ -13,10 +13,13 @@ categories:
 	</div>
 </div>
 
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
 {% for project in site.categories.research  %}
 <div class="row">
     <div class="col-lg-5">
-        <div class="head align-top">
+        <div class="head">
 			{{ project.title }}
 		</div>
         <div class="image-container">
@@ -24,7 +27,7 @@ categories:
         </div>
     </div>
     <div class="col-lg-6">
-		<div class="post align-top">
+		<div class="post">
             {{ project.content }}
 		</div>
 	</div>
