@@ -451,8 +451,12 @@ blockquote {
   }
 }
 
-.carousel {
-	margin: 0 auto;
-	width: 70%; /* 更改宽度 */
-	height: 70%; /* 更改高度 */
+.row {
+	align-items: center;
+	align-content: center;
 }
+
+.bigtitle {
+	align-content: center;
+}
+
