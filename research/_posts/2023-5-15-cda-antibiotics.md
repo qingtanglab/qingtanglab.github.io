@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Antibiotic-induced inflammation
+title: Antimicrobial resistance and antibiotic-induced host inflammation
 image: /images/2023-5-18-cdA-antibiotics.png
 ---
 
