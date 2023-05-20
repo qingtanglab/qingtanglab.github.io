@@ -80,14 +80,11 @@ h6 {
 	width: 385px;
 	height: 250px;
 	position: relative;
-	left: 0;
-        top: 0;
   }
   
   .image-container img {
 	position: absolute;
-	top: 0;
-        left: 0;
+	vertical-align: top;
  	margin: auto;
   	display: block;
   	width: 90%;
@@ -216,7 +213,6 @@ b, strong {
 	font-weight: 300;
 	line-height:30px;
 	/* Museo */
-	text-align: left;
 }
 
 .smallhead {
@@ -463,4 +459,3 @@ blockquote {
 .bigtitle {
 	align-content: center;
 }
-
