@@ -80,11 +80,14 @@ h6 {
 	width: 385px;
 	height: 250px;
 	position: relative;
+	left: 0;
+        top: 0;
   }
   
   .image-container img {
 	position: absolute;
-	vertical-align: top;
+	top: 0;
+        left: 0;
  	margin: auto;
   	display: block;
   	width: 90%;
