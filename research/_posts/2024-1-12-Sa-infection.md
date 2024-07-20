@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Staphylococcus aureus pathogenesis
+title: <i>Staphylococcus aureus</i> pathogenesis
 image: /images/2023-5-18-Sa pathogenesis.png
 ---
 
