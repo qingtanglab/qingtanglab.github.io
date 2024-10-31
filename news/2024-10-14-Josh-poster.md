@@ -3,7 +3,7 @@ layout: post
 title: "Josh Leeming presented his work in International Conf erence on Gram- Pos itive Pathogens"
 author: "Qing Tang"
 author_handle: qingtanglab
-image: /images/Omar-poster.png
+image: /images/Josh&Poster.png
 category: blog
 tags: [news]
 ---
