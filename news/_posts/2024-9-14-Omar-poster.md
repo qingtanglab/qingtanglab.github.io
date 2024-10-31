@@ -3,7 +3,7 @@ layout: post
 title: "Omar Elkassih presented his work in 30th Annual Midwest Microbial Pathogenesis Conference"
 author: "Qing Tang"
 author_handle: qingtanglab
-image: /images/Omar-poster
+image: /images/Omar-poster.png
 category: blog
 tags: [news]
 ---
