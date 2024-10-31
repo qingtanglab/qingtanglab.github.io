@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Josh Leeming presented his work in International Conf erence on Gram- Pos itive Pathogens"
+title: "Josh Leeming presented his work at 2024 International Conf erence on Gram- Pos itive Pathogens"
 author: "Qing Tang"
 author_handle: qingtanglab
 image: /images/Josh-poster.png
