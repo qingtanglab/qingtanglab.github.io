@@ -7,5 +7,5 @@ image: /images/Josh&Poster
 category: blog
 tags: [news]
 ---
-Josh’s work focuses on elucidating the regulatory network governing glutamine metabolism in <i>S. aureus<i>, a process crucial for bacterial growth. He has identified a novel regulator, PstA, a PII family protein that controls glutamine metabolism.
+Josh’s work focuses on elucidating the regulatory network governing glutamine metabolism in <i>S. aureus</i>, a process crucial for bacterial growth. He has identified a novel regulator, PstA, a PII family protein that controls glutamine metabolism.
 
