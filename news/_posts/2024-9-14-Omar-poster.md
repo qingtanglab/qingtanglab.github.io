@@ -8,5 +8,5 @@ category: blog
 tags: [news]
 ---
 Omar has found that the potential cell division protein GpsB is not required for growth in rich medium but is necessary for intracellular growth of
-<i>S. aureus<i> in macrophages. He later found that GpsB knockout mutant is more susceptible to the reactive oxygen species produced by macrophages. 
+<i>S. aureus</i> in macrophages. He later found that GpsB knockout mutant is more susceptible to the reactive oxygen species produced by macrophages. 
 
