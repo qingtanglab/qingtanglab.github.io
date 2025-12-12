@@ -3,7 +3,7 @@ layout: post
 title: "Pearl Thakkar gave an amazing poster presentation at the Student Research Spotlight Event at UNT"
 author: "Qing Tang"
 author_handle: qingtanglab
-image: /images/2025.12.Pearl.poster.jpg
+image: /images/2025.12.Pearl.poster.png
 category: blog
 tags: [news]
 ---
