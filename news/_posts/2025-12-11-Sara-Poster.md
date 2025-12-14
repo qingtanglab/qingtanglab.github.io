@@ -3,7 +3,7 @@ layout: post
 title: "Sarahi Hernandez gave an amazing poster presentation at the Student Research Spotlight Event at UNT"
 author: "Qing Tang"
 author_handle: qingtanglab
-image: /
+image: /images/2025.12.Sara.poster.jpg
 category: blog
 tags: [news]
 ---
