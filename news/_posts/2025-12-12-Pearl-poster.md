@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pearl Thakkar gave an amazing poster presentation at the Student Research Spotlight Event at UNT"
+title: "Pearl Thakkar’s poster presentation at the UNT Student Research Spotlight Event attracted the audience’s attention"
 author: "Qing Tang"
 author_handle: qingtanglab
 image: /images/2025.12.Pearl.poster.jpg
