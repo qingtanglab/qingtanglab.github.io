@@ -3,7 +3,7 @@ layout: post
 title: "The Tang Lab celebrates the publication of our first paper in mBio and the holidays!"
 author: "Qing Tang"
 author_handle: qingtanglab
-image: /
+image: /images/2025.12-holiday.jpg
 category: blog
 tags: [news]
 ---
